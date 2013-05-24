@@ -3,13 +3,13 @@
 *.apk
 *.ap_
 
-#files for the dex VM
+# files for the dex VM
 *.dex
 
-#Java class files
+# Java class files
 .class
 
-#generated files
+# generated files
 bin/
 gen/
 VolleySample/build/
@@ -20,9 +20,14 @@ local.properties
 # Proguard
 proguard/
 
-#Intellij project files
+# Intellij project files
 *.iml
 *.ipr
 *.iws
 .idea/
 .gradle/
+
+# Eclipse project files
+.classpath
+.project
+
